@@ -19,7 +19,7 @@ Proyek ini bertujuan untuk melakukan analisis sentimen terhadap data teks menggu
 - Pandas
 - Numpy
 - Matplotlib / Seaborn (visualisasi opsional)
-- Jupyter Notebook (jika digunakan)
+- googleplay scraper
 
 ---
 
@@ -61,6 +61,8 @@ Keduanya diuji menggunakan data TF-IDF dengan split 80% data latih dan 20% data 
 | Multinomial Naive Bayes   | 82.58%   |
 | Support Vector Machine    | 80.43%   |
 
+
+hasil terbaik diambil dari model naive bayes dengan perbandingan kecil terhadap proporsi label sebenarnya (85,4% Negatif, dan 14,6% Positif) sedangkan label prediksi yang dihasilkan naive bayes adalah (79,8% Negatif dan 20,2% Positif). Dari selisih kecil tersebut dapat disimpulkan bahwa model bekerja dengan baik untuk mengklasifikasikan sentimen baru. 
 ---
 
 ### 🧾 Laporan Klasifikasi 
